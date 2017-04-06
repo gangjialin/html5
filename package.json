@@ -1,11 +1,20 @@
 {
-  "name": "Html5 Basic Lesson",
+  "name": "html",
   "version": "1.0.0",
-  "description": "学习前端开发技术，第一阶段,html,css,javascript",
+  "description": "学习前端开发技术，第一阶段，html",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync":"^2.11.1"
   },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch":"browser-sync start --server --no-notify --files='*.html,scripts/*.js,styles/*.css'"
+  },
+  "keywords": [
+    "html",
+    "css"
+  ],
   "author": "gangjialin",
   "license": "MIT"
 }
