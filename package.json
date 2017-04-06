@@ -1,0 +1,11 @@
+{
+  "name": "Html5 Basic Lesson",
+  "version": "1.0.0",
+  "description": "学习前端开发技术，第一阶段,html,css,javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gangjialin",
+  "license": "MIT"
+}
